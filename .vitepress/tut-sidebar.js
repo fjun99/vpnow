@@ -5,12 +5,12 @@ export const sidebarTutNFTMarket =
         collapsible: false,
         items: [
             { text: 'Introduction', link: '/tutorial/build-an-nft-marketplace/' },
-            { text: 'Task 1: What we build and project setup', link: '/tutorial/build-an-nft-marketplace/task-01' },
-            { text: 'Task 2: NFT collection smart contract', link: '/tutorial/build-an-nft-marketplace/task-02' },
-            { text: 'Task 3: A web page to display NFT item', link: '/tutorial/build-an-nft-marketplace/task-03' },
+            { text: 'Task 1: What we build', link: '/tutorial/build-an-nft-marketplace/task-01' },
+            { text: 'Task 2: NFT smart contract', link: '/tutorial/build-an-nft-marketplace/task-02' },
+            { text: 'Task 3: Web page for NFT item', link: '/tutorial/build-an-nft-marketplace/task-03' },
             { text: 'Task 4: NFT marketplace smart contract', link: '/tutorial/build-an-nft-marketplace/task-04' },
             { text: 'Task 5: Webapp for NFTMarketplace', link: '/tutorial/build-an-nft-marketplace/task-05' },
-            { text: 'Task 6: Deploy to Polygon and query using Alchemy NFT APIs', link: '/tutorial/build-an-nft-marketplace/task-06' },
+            { text: 'Task 6: Deploy to Polygon', link: '/tutorial/build-an-nft-marketplace/task-06' },
             { text: 'Appendix: Thinking Note on `delegatecall`', link: '/tutorial/build-an-nft-marketplace/thinknote' },
         ]
       }
