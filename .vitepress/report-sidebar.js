@@ -5,7 +5,7 @@ export const sidebarReportEIP4337 =
         collapsible: false,
         items: [
             { text: '摘要与目录', link: '/report/eip-4337-practice/' },
-            { text: '0. 一个使用场景', link: '/report/eip-4337-practice/0-scene' },
+            { text: '一个使用场景', link: '/report/eip-4337-practice/0-scene' },
             { text: '1. 为什么需要 EIP-4337', link: '/report/eip-4337-practice/1-why' },
             { text: '2. EIP-4337 的三种场景', link: '/report/eip-4337-practice/2-three-scenaro'},
             { text: '3. EIP-4337 的原理与组件', link: '/report/eip-4337-practice/3-components' },
