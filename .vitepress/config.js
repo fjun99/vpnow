@@ -1,16 +1,13 @@
-const Guide = [
-    { text: 'VitePress Tutorial', link: 'tut' },
-    { text: 'What is VitePress?', link: '/guide/what-is-vitepress' },
-    { text: 'Getting Started', link: '/guide/getting-started' },
-    { text: 'Configuration', link: '/guide/configuration' },
-    { text: 'Deploying', link: '/guide/deploying' },
-  ]
+import { sidebarTutNFTMarket } from "./tut-sidebar"
+import { sidebarGuide } from "./sidebars"
+import { GuideNav, TutorialsNav } from "./nav"
 
 export default {
   title: 'KKNOW',
   description: 'KKNOW research',
   appearance: 'dark',
   head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],  
   ],
   themeConfig: {
     logo: '/logo.png',
@@ -21,16 +18,21 @@ export default {
     nav: [
       {
         text: 'Guide',
-        items: Guide,
+        items: GuideNav,
       },
       {
         text: 'Showcases',
         link: '/showcases', activeMatch: '/showcases'
+      },
+      {
+        text: 'Tutorials',
+        items: TutorialsNav
       }
     ],
 
     sidebar: {
-      '/guide/':  sidebarGuide(),      
+      '/guide/':  sidebarGuide,
+      '/tutorials/build-an-nft-marketplace/':sidebarTutNFTMarket     
     },
 
     footer: {
@@ -40,20 +42,4 @@ export default {
     
     
   },  
-}
-
-
-function sidebarGuide() {
-  return [
-    {
-      text: 'VitePress',
-      collapsible: false,
-      items: [
-        { text: 'What is VitePress?', link: '/guide/what-is-vitepress' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
-        { text: 'Configuration', link: '/guide/configuration' },
-        { text: 'Deploying', link: '/guide/deploying' }
-      ]
-    }
-  ]
 }
