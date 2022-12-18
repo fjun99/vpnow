@@ -1,6 +1,9 @@
-import { sidebarTutNFTMarket } from "./tut-sidebar"
-import { sidebarGuide } from "./sidebars"
 import { GuideNav, TutorialsNav } from "./nav"
+import { sidebarGuide } from "./sidebars"
+
+// tutorial & report sidebars
+import { sidebarTutNFTMarket } from "./tut-sidebar"
+import { sidebarReportEIP4337 } from "./report-sidebar"
 
 export default {
   title: 'KKNOW',
@@ -32,7 +35,8 @@ export default {
 
     sidebar: {
       '/guide/':  sidebarGuide,
-      '/tutorials/build-an-nft-marketplace/':sidebarTutNFTMarket     
+      '/tutorial/build-an-nft-marketplace/':sidebarTutNFTMarket,     
+      '/report/eip-4337-practice':sidebarReportEIP4337  
     },
 
     footer: {
