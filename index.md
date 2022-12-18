@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: VitePress
-titleTemplate: Vite & Vue Powered Static Site Generator
+title: KKNOW
+titleTemplate: Quick Know Web3.0
 
 hero:
   name: VitePress
