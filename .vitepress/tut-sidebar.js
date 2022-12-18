@@ -11,6 +11,7 @@ export const sidebarTutNFTMarket =
             { text: 'Task 4: NFT marketplace smart contract', link: '/tutorials/build-an-nft-marketplace/task-04' },
             { text: 'Task 5: Webapp for NFTMarketplace', link: '/tutorials/build-an-nft-marketplace/task-05' },
             { text: 'Task 6: Deploy to Polygon and query using Alchemy NFT APIs', link: '/tutorials/build-an-nft-marketplace/task-06' },
+            { text: 'Appendix: Thinking Note on `delegatecall`', link: '/tutorials/build-an-nft-marketplace/thinknote' },
         ]
       }
     ]
