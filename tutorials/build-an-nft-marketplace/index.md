@@ -12,7 +12,7 @@ In my previous tutorials, you may have learned:
 
 Now you can start writing a smart contract with complete functionalities: **a marketplace for digital items**. NFT items of an NFT collection are the digital items traded here.
 
-### Table of content
+Table of content
 
 - Task 1: [What we build and project setup](task-01)
 - Task 2: [NFT collection smart contract](task-02)
