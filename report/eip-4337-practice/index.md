@@ -86,4 +86,4 @@ EIP-4337 是用一系列新的组件来达成这一目标的：
 
     5. 总结与展望
 
-说明：EIP-4337 引入一组全新的组件：用户操作(UserOperation)、打包者(Bundler)、入口点合约(EntryPoint Contract)、钱包合约(Wallet Contract)、 UO 内存池(UO Mempool)。同时，要深入理解 EIP-4337 需要对以太坊原有的相应组件如 EOA 外部账户与合约账户、交易事务（Transaction, tx）、Create2合约部署方式等有较为详尽的了解。在这里，我们将在涉及时一一讨论。相关的术语的中英文对照可参考文中「EIP-4337 相关术语表」。
+说明：EIP-4337 引入一组全新的组件：用户操作(UserOperation)、打包者(Bundler)、入口点合约(EntryPoint Contract)、钱包合约(Wallet Contract)、 UO 内存池(UO Mempool)。同时，要深入理解 EIP-4337 需要对以太坊原有的相应组件如 EOA 外部账户与合约账户、交易事务（Transaction, tx）、Create2合约部署方式等有较为详尽的了解。在这里，我们将在涉及时一一讨论。相关的术语的中英文对照可参考文中「[EIP-4337 相关术语表](glossary)」。
