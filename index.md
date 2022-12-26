@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: KKNOW
+title: KKNOW Research
 titleTemplate: Quick Know Web3.0
 
 hero:
-  name: VitePress
+  name: KKnow Research
   text: Vite & Vue Powered Static Site Generator
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:

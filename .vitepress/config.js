@@ -6,7 +6,7 @@ import { sidebarTutNFTMarket } from "./tut-sidebar"
 import { sidebarReportEIP4337 } from "./report-sidebar"
 
 export default {
-  title: 'KKNOW',
+  title: 'KKNOW Research',
   description: 'KKNOW research',
   appearance: 'dark',
   head: [
