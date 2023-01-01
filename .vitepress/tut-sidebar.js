@@ -5,7 +5,7 @@ export const sidebarTutNFTMarket =
         collapsible: false,
         items: [
             { text: 'Introduction', link: '/tutorial/build-an-nft-marketplace/' },
-            { text: 'Task 1: What we build', link: '/tutorial/build-an-nft-marketplace/task-01' },
+            { text: 'Task 1: What we will build', link: '/tutorial/build-an-nft-marketplace/task-01' },
             { text: 'Task 2: NFT smart contract', link: '/tutorial/build-an-nft-marketplace/task-02' },
             { text: 'Task 3: Web page for NFT item', link: '/tutorial/build-an-nft-marketplace/task-03' },
             { text: 'Task 4: NFT marketplace smart contract', link: '/tutorial/build-an-nft-marketplace/task-04' },
